@@ -1,18 +1,3 @@
-$WHITE-COLOR: #ffffff;
-$BLUE-COLOR: #1EACC7;
-
-@mixin btn{
-    &:hover{
-        background-image: none;
-        background: $BLUE-COLOR;
-    }
-}
-
-
-*{
-    font-family: 'Roboto', sans-serif;
-}
-
 header{
     position: relative;
     nav{
@@ -33,7 +18,7 @@ header{
                 font-weight: 300;
 
                 &:hover{
-                    color: #ffffff;
+                    color: $WHITE-COLOR;
                 }
             }
         }
@@ -51,7 +36,7 @@ header{
         }
 
         .subheader_logo-title{
-            color: #ffffff;
+            color: $WHITE-COLOR;
             font-weight: 400;
             font-size: 13px;
             opacity: 0.5;
@@ -59,7 +44,7 @@ header{
         }
 
         .call{
-            color: #ffffff;
+            color: $WHITE-COLOR;
             font-size: 12px;
             font-weight: 300;
             padding-top: 17px;
@@ -67,7 +52,7 @@ header{
         }
 
         .tel{
-            color: #ffffff;
+            color: $WHITE-COLOR;
             font-size: 22px;
             font-weight: 400;
             text-decoration: none;
@@ -76,7 +61,7 @@ header{
         }
 
         button{
-            color: #ffffff;
+            color: $WHITE-COLOR;
             font-size: 14px;
             font-weight: 400;
             text-transform: uppercase;
@@ -95,7 +80,7 @@ header{
     padding: 150px 0 135px 0;
 
     .title{
-        color: #ffffff;
+        color: $WHITE-COLOR;
         font-weight: 700;
         font-size: 60px;
         text-transform: uppercase;
@@ -105,7 +90,7 @@ header{
     }
 
     .subtitle{
-        color: #ffffff;
+        color: $WHITE-COLOR;
         font-weight: 700;
         font-size: 36px;
         text-transform: uppercase;
@@ -116,7 +101,7 @@ header{
     }
 
     .desc{
-        color: #ffffff;
+        color: $WHITE-COLOR;
         font-size: 18px;
         font-weight: 400;
         line-height: 30px;
@@ -125,7 +110,7 @@ header{
     }
 
     button{
-        color: #ffffff;
+        color: $WHITE-COLOR;
         font-size: 14px;
         font-weight: 400;
         text-transform: uppercase;
@@ -174,7 +159,7 @@ header{
             align-items: center;
             width: 115px;
             height: 115px;
-            background-color: #1EACC7;
+            background-color: $BLUE-COLOR;
             border-radius: 100%;
         }
 
@@ -183,7 +168,7 @@ header{
             margin-left: 25px;
 
             .subtitle{
-                color: #1EACC7;
+                color: $BLUE-COLOR;
                 font-weight: 400;
                 font-size: 17px;
             }
@@ -234,7 +219,7 @@ header{
         }
 
         &_subtitle{
-            color: #ffffff;
+            color: $WHITE-COLOR;
             font-weight: 400;
             font-size: 24px;
             text-transform: uppercase;
@@ -291,15 +276,15 @@ header{
 
     .label{
         color: black;
-        background-color: #ffffff;
+        background-color: $WHITE-COLOR;
     }
 
     .section_title{
-        color: #ffffff;
+        color: $WHITE-COLOR;
     }
 
     .section_subtitle{
-        color: #ffffff;
+        color: $WHITE-COLOR;
     }
 
     img{

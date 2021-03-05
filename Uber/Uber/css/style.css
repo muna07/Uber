@@ -1,0 +1,722 @@
+@charset "UTF-8";
+/* line 2, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/style.scss */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 1, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+header {
+  position: relative;
+}
+
+/* line 3, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+header nav {
+  min-height: 50px;
+  background-color: #212121;
+}
+
+/* line 7, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+header nav .menu {
+  padding: 10px 70px;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 14, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+header nav .menu .menu_link {
+  text-decoration: none;
+  color: #DCDCDC;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* line 20, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+header nav .menu .menu_link:hover {
+  color: #ffffff;
+}
+
+/* line 27, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+header .subheader {
+  min-height: 80px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+}
+
+/* line 33, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+header .subheader .subheader_logo {
+  max-width: 100%;
+  padding-top: 17px;
+}
+
+/* line 38, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+header .subheader .subheader_logo-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 13px;
+  opacity: 0.5;
+  margin: 5px 0;
+}
+
+/* line 46, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+header .subheader .call {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  padding-top: 17px;
+  text-align: right;
+}
+
+/* line 54, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+header .subheader .tel {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+}
+
+/* line 63, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+header .subheader button {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 12px 6px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  border-radius: 5px;
+  margin-top: 19px;
+}
+
+/* line 2, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_mixins.scss */
+header .subheader button:hover {
+  background-image: none;
+  background: #1EACC7;
+}
+
+/* line 77, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.promo {
+  min-height: 800px;
+  background: url("../img/bg/uber_bg.png") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+/* line 82, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.promo .title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 70px;
+  margin: 0;
+}
+
+/* line 92, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.promo .subtitle {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 60px;
+  margin: 0;
+  margin-top: 22px;
+}
+
+/* line 103, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.promo .desc {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* line 112, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.promo button {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 12px 6px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+/* line 2, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_mixins.scss */
+.promo button:hover {
+  background-image: none;
+  background: #1EACC7;
+}
+
+/* line 127, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.label {
+  color: white;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 5px;
+  background-color: black;
+  width: 115px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* line 140, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.section_title {
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* line 148, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.section_2 {
+  padding: 71px 0 65px 0;
+}
+
+/* line 151, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.section_2 .block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* line 156, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.section_2 .block .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 115px;
+  height: 115px;
+  background-color: #1EACC7;
+  border-radius: 100%;
+}
+
+/* line 166, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.section_2 .block .desc {
+  width: 343px;
+  margin-left: 25px;
+}
+
+/* line 170, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.section_2 .block .desc .subtitle {
+  color: #1EACC7;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+/* line 176, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.section_2 .block .desc .text {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  margin-top: 5px;
+}
+
+/* line 186, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.section_subtitle {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* line 192, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.Opportunities {
+  min-height: 850px;
+  padding: 50px 0 80px 0;
+  background: url("../img/bg/mobile_bg.png") center center/cover no-repeat;
+}
+
+/* line 197, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.Opportunities .mobile_item {
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-top: 20px;
+  position: relative;
+  background: url("../img/mobil/Карточка 1.png") center center/cover no-repeat;
+}
+
+/* line 205, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.Opportunities .mobile_item_2 {
+  background: url("../img/mobil/Карточка 2.png") center center/cover no-repeat;
+}
+
+/* line 208, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.Opportunities .mobile_item_3 {
+  background: url("../img/mobil/Карточка 3.png") center center/cover no-repeat;
+}
+
+/* line 211, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.Opportunities .mobile_item_4 {
+  background: url("../img/mobil/Карточка 4.png") center center/cover no-repeat;
+}
+
+/* line 214, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.Opportunities .mobile_item_5 {
+  background: url("../img/mobil/Карточка 5.png") center center/cover no-repeat;
+}
+
+/* line 217, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.Opportunities .mobile_item_6 {
+  background: url("../img/mobil/Карточка 6.png") center center/cover no-repeat;
+}
+
+/* line 221, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.Opportunities .mobile_item_subtitle {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 90px;
+}
+
+/* line 230, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.Opportunities .mobile_item .mobile_subtitle_icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 243, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.Opportunities .mobile_item .mobile_subtitle_icon:before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+/* line 251, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.Opportunities .mobile_item .mobile_subtitle_icon:after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 14px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 263, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.Opportunities .mobile_item .mobile_subtitle_icon:hover:before, .Opportunities .mobile_item .mobile_subtitle_icon:hover:after {
+  background-color: #1EACC7;
+  transition: 0.5s all;
+}
+
+/* line 272, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.uber-X {
+  min-height: 900px;
+  background: url("../img/bg/Group 1.png") center center/cover no-repeat;
+  padding: 55px 0 140px 0;
+}
+
+/* line 277, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.uber-X .label {
+  color: black;
+  background-color: #ffffff;
+}
+
+/* line 282, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.uber-X .section_title {
+  color: #ffffff;
+}
+
+/* line 286, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.uber-X .section_subtitle {
+  color: #ffffff;
+}
+
+/* line 290, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.uber-X img {
+  padding-top: 60px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 296, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.uber-X .tagline {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: center;
+}
+
+/* line 304, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.conditions {
+  padding: 70px 0;
+}
+
+/* line 307, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.conditions .list_block {
+  margin: 33px 0;
+}
+
+/* line 310, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.conditions .list_block-nmb {
+  margin-bottom: 0;
+}
+
+/* line 313, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.conditions .list_block .list_title {
+  color: #1EACC7;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+/* line 318, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.conditions .list_block .list_title span {
+  font-size: 22px;
+}
+
+/* line 322, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.conditions .list_block .list_title-red {
+  color: red;
+}
+
+/* line 327, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.conditions .list_block .list {
+  margin-top: 20px;
+  list-style-type: none;
+  padding-left: 50px;
+}
+
+/* line 332, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.conditions .list_block .list li {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+/* line 339, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.conditions .list_block .list li:before {
+  content: "";
+  position: absolute;
+  left: -33px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  width: 20px;
+  height: 21px;
+  background: url("../icon/check_blue.png") center center/cover no-repeat;
+}
+
+/* line 354, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.conditions .list_block .list_red li:before {
+  content: "";
+  background: url("../icon/check_red.png") center center/cover no-repeat;
+}
+
+/* line 362, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.conditions .list_block .list_subtitle {
+  color: #1EACC7;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+/* line 370, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.world {
+  min-height: 717px;
+  background: url("../img/bg/world_bg.png") center center/cover no-repeat;
+  padding: 50px 0;
+  position: relative;
+}
+
+/* line 376, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.world .label {
+  color: black;
+  background-color: #ffffff;
+}
+
+/* line 381, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.world .section_title {
+  color: #ffffff;
+}
+
+/* line 385, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.world .section_subtitle {
+  color: #ffffff;
+}
+
+/* line 389, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.world .link {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 395, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.world .link a {
+  color: #1EACC7;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 402, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+.world .link a:hover {
+  color: #ffffff;
+}
+
+/* line 409, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+footer {
+  min-height: 200px;
+  padding: 50px 10px;
+}
+
+/* line 413, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+footer .blue_line {
+  width: 300px;
+  height: 5px;
+  background-color: #1EACC7;
+  margin: 0 auto;
+}
+
+/* line 420, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 425, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+footer .wrapper .size {
+  width: 33%;
+  margin-top: 20px;
+}
+
+/* line 429, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+footer .wrapper .size a {
+  text-decoration: none;
+}
+
+/* line 433, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+footer .wrapper .size:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 439, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+footer .wrapper .footer_social {
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 444, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+footer .wrapper .footer_social_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #000000;
+  border-radius: 100%;
+}
+
+/* line 453, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+footer .wrapper .footer_social_item i {
+  color: white;
+}
+
+/* line 459, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+footer .wrapper .footer_links {
+  width: 390px;
+  margin: 0 auto;
+}
+
+/* line 463, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+footer .wrapper .footer_links .footer_social_main {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 467, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+footer .wrapper .footer_links .footer_social_main a {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 473, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+footer .wrapper .footer_links .footer_social_main a:hover {
+  color: #1EACC7;
+  font-weight: 400;
+}
+
+/* line 480, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+footer .wrapper .footer_links .footer_social_sub {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* line 485, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+footer .wrapper .footer_links .footer_social_sub a {
+  color: #999999;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 491, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_general.scss */
+footer .wrapper .footer_links .footer_social_sub a:hover {
+  color: #1EACC7;
+  font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+  /* line 3, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  header nav .menu .menu_link {
+    font-size: 13px;
+  }
+  /* line 8, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  header .subheader .tel {
+    font-size: 18px;
+  }
+  /* line 12, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  header .subheader button {
+    font-size: 12px;
+  }
+  /* line 19, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  .promo .title {
+    font-size: 50px;
+  }
+  /* line 23, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  .promo .subtitle {
+    font-size: 30px;
+  }
+  /* line 29, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  .section_2 .block {
+    align-items: flex-start;
+  }
+  /* line 32, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  .section_2 .block .desc {
+    width: 325px;
+  }
+  /* line 38, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  .Opportunities .mobile_item {
+    width: 300px;
+  }
+  /* line 41, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  .Opportunities .mobile_item_subtitle {
+    font-size: 18px;
+  }
+  /* line 46, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  footer .wrapper .footer_links {
+    width: 320px;
+  }
+  /* line 49, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  footer .wrapper .footer_links .footer_social_main a {
+    font-size: 13px;
+  }
+  /* line 53, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  footer .wrapper .footer_links .footer_social_sub a {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 61, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  header nav .menu .menu_link {
+    font-size: 10px;
+  }
+  /* line 66, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  header .subheader .subheader_logo-title {
+    font-size: 12px;
+  }
+  /* line 70, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  header .subheader button {
+    font-size: 12px;
+    padding: 10px 10px;
+  }
+  /* line 75, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  header .subheader .col-md-2 {
+    width: 23%;
+  }
+  /* line 82, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  .promo .title {
+    font-size: 40px;
+  }
+  /* line 86, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  .promo .subtitle {
+    font-size: 25px;
+  }
+  /* line 90, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  .promo .desc {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  /* line 97, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  .section_2 .block {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 101, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  .section_2 .block .desc {
+    margin-top: 10px;
+  }
+  /* line 107, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  .Opportunities .mobile_item {
+    width: 220px;
+    height: 250px;
+  }
+  /* line 113, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  .uber-X img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 124, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  header nav .menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+  }
+  /* line 136, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  header nav .menu_active {
+    left: 0;
+  }
+  /* line 142, ../../../OneDrive/Рабочий стол/git/Uber/Uber/scss/_media.scss */
+  header nav .menu_item .menu_link {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
